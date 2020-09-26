@@ -5,3 +5,7 @@ A web app that allows you to enter the grades of your students (which could be a
 - the average grade 
 - which grades are passing
 - which grades are failing
+
+### App Demo
+
+![App Demo](grade-statistics.gif)
