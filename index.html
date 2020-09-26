@@ -16,6 +16,11 @@
     <div class="container">
 
       <div class="stats">
+        <form id="grades-form" class="table-header">
+          <input class="grade-input" type="number" min=40 max=100 placeholder="Grade (from 40 to 100)" id="grade">
+          <button type="submit" class="btn">Add</button>
+        </form>
+
         <table class="stats-table">
           <thead>
             <tr>
@@ -25,11 +30,18 @@
               <th>Highest</th>
             </tr>
           </thead>
-          <tbody></tbody>
+          <tbody>
+            <tr>
+              <td id="countGrades"></td>
+              <td id="avgGrades"></td>
+              <td id="lowestGrades"></td>
+              <td id="highestGrades"></td>
+            </tr>
+          </tbody>
         </table>
       </div>
 
-      <div class="stats">
+      <div class="arrays">
         <table class="stats-table">
           <thead>
             <tr>
