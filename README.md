@@ -6,6 +6,9 @@ A web app that allows you to enter the grades of your students (which could be a
 - which grades are passing
 - which grades are failing
 
+## Link to project 
+https://joelynn94.github.io/grade-statistics/
+
 ### App Demo
 
 ![App Demo](grade-statistics.gif)
